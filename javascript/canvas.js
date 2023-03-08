@@ -5,11 +5,23 @@ class HangmanCanvas {
   }
 
   createBoard() {
-    // ... your code goes here
+    console.log('creating board')
+
+    
+    // la methode de dessin qui va s'occuper de tout bien dessiner le jeu:
+    //   - les lignes du mot secret
+
+    this.drawLines()
   }
 
   drawLines() {
-    // ... your code goes here
+    //hangman.secretWord
+    // for(let i = 0; i<secretWord.length; i++){
+    //   //draw lines 
+    // }   
+
+    // tracer une ligne de test
+    
   }
 
   writeCorrectLetter(index) {
